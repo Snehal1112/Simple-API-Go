@@ -1,12 +1,9 @@
-# Backend & API Development
-
-Going Everwhere Only in One OK!!
+# Task Management API
 
 ## Getting Started
 
-Disini repository Project **API** kita.
-Terimakasih!!
-
+This is a sample implementation of gin framework.
+To built a task management API.
 ## Built With
 
 * [Go (Golang)](https://golang.org/) - 
