@@ -13,11 +13,13 @@
 
 ## Overview
 
-1. Run the project
+1. Import the SQL to your MySql Database. 
 
-2. Open  <http://localhost:9090/ninja/docs/> for API documentation 
+2. Run the project
 
-3. Integrate with your apps Android , Angular, React
+3. Open  <http://localhost:9090/ninja/docs/> for API documentation 
+
+4. Integrate with your apps Android , Angular, React
     
 See [Quick Start](#quick-start) for example implementations.
 
