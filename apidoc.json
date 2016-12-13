@@ -1,0 +1,9 @@
+{
+  "name": "OkAPI",
+  "version": "0.0.1",
+  "description": "API for all user and drivers",
+  "template": {
+    "forceLanguage": "en"
+  },
+  "url" : "https://localhost:9090"
+}

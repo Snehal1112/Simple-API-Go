@@ -1,0 +1,10 @@
+package models
+
+type LoginResponse struct {
+	Statuscode	int 	`json:"statuscode"`
+	Success 	bool	`json:"success"`
+	Message 	string 	`json:"message"`
+	Token  		string  `json:"token"`
+	
+	
+}
