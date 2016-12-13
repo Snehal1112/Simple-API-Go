@@ -1,7 +1,7 @@
 {
   "name": "OkAPI",
   "version": "0.0.1",
-  "description": "API for all user and drivers",
+  "description": "API Task Management",
   "template": {
     "forceLanguage": "en"
   },
