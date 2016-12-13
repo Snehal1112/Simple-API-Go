@@ -43,5 +43,3 @@ go run server.go
 
 ```
 
-
-Then visit <http://localhost:9090/> and test it out.
