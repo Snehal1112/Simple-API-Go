@@ -15,9 +15,3 @@ To built a task management API.
 
 
 ## License
-
-
-
-## Acknowledgments
-
-
