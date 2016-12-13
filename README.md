@@ -37,8 +37,9 @@ You can also email <iman.tumorang@gmail.com> or file an [Issue](https://github.c
 Run your project using this command
 
 ```bash
-# pull the project
-git pull origin master
+# download the project
+git clone https://github.com/bxcodec/Simple-API-Go.git
+cd simple-api-go
 
 # run the project
 go run server.go
