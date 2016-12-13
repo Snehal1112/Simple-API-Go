@@ -18,11 +18,11 @@ func SetAuthRoutes(router *gin.RouterGroup) {
  * @api {post} /authuser/login Login
  * @apiGroup Users
  * @apiHeader {application/json} Content-Type Accept application/json
- * @apiParam {String} email User email
+ * @apiParam {String} username User username
  * @apiParam {String} password User Password
  * @apiParamExample {json} Input
  *    {
- *      "email": "your email",
+ *      "username": "your username",
  *		"password"	 : "your password"		
  *    }
  * @apiSuccess {Object} authenticate Response

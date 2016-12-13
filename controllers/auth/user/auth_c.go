@@ -19,7 +19,7 @@ import (
 
 
 type LoginModel struct {
-	username  string ` form:"username" json : "username" binding: "required"`
+	Username  string ` form:"username" json : "username" binding: "required"`
 	Password  string ` form:"password" json : "password" binding: "required"`
 }
 
@@ -45,7 +45,7 @@ func Login(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, content)
 		return
 	}
-	if Form.username== "" {
+	if Form.Username== "" {
 
 		content:= gin.H{
 			"success" : false,
@@ -57,7 +57,7 @@ func Login(c *gin.Context) {
 	}
 
 	
-	akun, err := models.OkAkuns(DBCon, Where("username = ?", Form.username), And("role=?", "user")).One()
+	akun, err := models.OkAkuns(DBCon, Where("username = ?", Form.Username)).One()
 
 	if err !=nil {
 			content:= gin.H{
