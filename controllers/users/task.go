@@ -31,7 +31,7 @@ func GetAllTaskByProject( c *gin.Context) {
  idProject := c.Param("project_id");
 
 var resultset [] ResultSet
-
+// I Use Call Procedure From Database; Look on Mysql For detailed the Query
 err := queries.Raw(DBCon,`CALL get_all_task_by_project(?)`, idProject).Bind(&resultset)
 			
 if err !=nil {
