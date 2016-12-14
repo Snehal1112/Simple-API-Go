@@ -38,7 +38,7 @@ if err !=nil {
 
 		fmt.Println(err);
 		content := gin.H{
-            "status code": 500,
+            "status_code": 500,
             "message": "Internal Server Error",
         }
 
@@ -47,7 +47,7 @@ if err !=nil {
 }else {
 	content := gin.H{
             "success": true,
-            "status code": 200,
+            "status_code": 200,
             "content": resultset,
         }
 

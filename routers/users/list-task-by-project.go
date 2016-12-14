@@ -26,6 +26,8 @@ func SetGetAllTaskByProject(router *gin.RouterGroup) {
  * @apiSuccess {String} content.desc_task Deskripsi Task
  * @apiSuccess {String} content.pemberi Pemeberi Task
  * @apiSuccess {String} content.penerima Penerima Task
+ * @apiSuccess {String} status_code Code Response
+ * @apiSuccess {Boolean} succes Determine the Response
  * @apiSuccessExample {json} Success
 	{
 	  "content": [
@@ -38,7 +40,7 @@ func SetGetAllTaskByProject(router *gin.RouterGroup) {
 	      "penerima": "Eminarty "
 	    }
 	  ],
-	  "status code": 200,
+	  "status_code": 200,
 	  "success": true
 	}
  * @apiErrorExample {json} List error
