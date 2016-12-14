@@ -30,7 +30,7 @@ func GetAllTaskByProject( c *gin.Context) {
 	
  idProject := c.Param("project_id");
 
-var resultset ResultSet
+var resultset [] ResultSet
 
 err := queries.Raw(DBCon,`CALL get_all_task_by_project(?)`, idProject).Bind(&resultset)
 			
@@ -46,8 +46,8 @@ if err !=nil {
 
 }else {
 	content := gin.H{
-            "result": "Success",
-            "title": "USER",
+            "success": true,
+            "status code": 200,
             "content": resultset,
         }
 
