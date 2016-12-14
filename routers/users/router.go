@@ -12,7 +12,9 @@ import (
 func InitRoutes(g *gin.RouterGroup)  {
 	g.Use(RoleValidationMiddleWare());
 	SetHelloRoutes(g)
+	SetGetAllTaskByProject(g)
 }
+
 
  func RoleValidationMiddleWare() gin.HandlerFunc{
  	return func (c *gin.Context) {
@@ -22,7 +24,7 @@ func InitRoutes(g *gin.RouterGroup)  {
 		akun,err := models.FindOkAkun(DBCon,decodedToken.AkunId)
 
 
-			if decodedToken.Role != "user"  {
+			if decodedToken.Role != "developer"  {
 		 			content:= gin.H{
 							"success" : false,
 							"message" : "Role Tidak sesuai",
