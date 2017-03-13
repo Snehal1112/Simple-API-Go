@@ -1,6 +1,6 @@
 {
-  "name": "OkAPI",
-  "version": "0.0.1",
+  "name": "TaskApi",
+  "version": "1.0.0",
   "description": "API Task Management",
   "template": {
     "forceLanguage": "en"

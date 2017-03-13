@@ -18,7 +18,7 @@ func SetAuthRoutes(router *gin.RouterGroup) {
 
 
 /**
- * @api {post} /authuser/login Login
+ * @api {post} /v1/auth/login Login
  * @apiGroup Users
  * @apiHeader {application/json} Content-Type Accept application/json
  * @apiParam {String} username User username

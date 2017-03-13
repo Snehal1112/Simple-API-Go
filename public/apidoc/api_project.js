@@ -1,6 +1,6 @@
 define({
-  "name": "OkAPI",
-  "version": "0.0.1",
+  "name": "TaskApi",
+  "version": "1.0.0",
   "description": "API Task Management",
   "template": {
     "forceLanguage": "en"
@@ -10,7 +10,7 @@ define({
   "apidoc": "0.2.0",
   "generator": {
     "name": "apidoc",
-    "time": "2016-12-14T11:30:05.783Z",
+    "time": "2017-03-13T19:23:29.956Z",
     "url": "http://apidocjs.com",
     "version": "0.16.1"
   }
