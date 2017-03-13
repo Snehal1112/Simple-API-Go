@@ -9,7 +9,7 @@ import (
 	"gopkg.in/gin-gonic/gin.v1"
 	"simple-api/core/models"
 	mysql "simple-api/services/mysql"
-	token "simple-api/services/token"
+	token "simple-api/libs/token"
 	"gopkg.in/inconshreveable/log15.v2"
 	. "github.com/vattle/sqlboiler/queries/qm"
 

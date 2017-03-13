@@ -25,7 +25,7 @@ import (
 	"github.com/vattle/sqlboiler/boil"
 	"simple-api/core/models"
 	cors "simple-api/middlewares/cors"
-	header "simple-api/middlewares/header"
+	content_type "simple-api/middlewares/content-type"
 
 	"gopkg.in/mgo.v2"
 )
@@ -48,7 +48,7 @@ func init () {
 	router = gin.New()
 	//mongodb.CheckMongoDB()
 	
-	router.Use(header.HeaderMiddleWare())
+	router.Use(content_type.HeaderMiddleWare())
 	router.Use(cors.CORSMiddleware())
 	router.NoRoute(noRouteHandler())
 	
