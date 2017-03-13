@@ -1,4 +1,5 @@
-# Docs
+
+# Docs (Status : OnGoing)
 
 [Task Management API](#) is a simple API for task management.
 Developed under Go (Golang) platform.
@@ -18,10 +19,6 @@ See [Source](#source) For all the library used
 1. Import the SQL to your MySql Database. 
 
 2. Run the project
-
-3. Open  <http://localhost:9090/ninja/docs/> for API documentation 
-
-4. Integrate with your apps Android , Angular, React
     
 See [Quick Start](#quick-start) for example implementations.
 
@@ -44,7 +41,7 @@ git clone https://github.com/bxcodec/Simple-API-Go.git
 cd simple-api-go
 
 # run the project
-go run server.go
+go run main.go
 
 ```
 
