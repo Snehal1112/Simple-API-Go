@@ -19,7 +19,7 @@ See [Source](#source) For all the library used
 1. Import the SQL to your MySql Database. 
 2. Set your Database Connections (`username/password` in `services/mysql` and `core/sqlboiler.toml` )
 3. Set your others services instance (Redis,ElasticSearch,MongoDB , etc )
-3. Run the project
+4. Run the project
     
 See [Quick Start](#quick-start) for example implementations.
 
