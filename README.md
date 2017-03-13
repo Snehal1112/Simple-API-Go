@@ -17,8 +17,8 @@ See [Source](#source) For all the library used
 ## Overview
 
 1. Import the SQL to your MySql Database. 
-
-2. Run the project
+2. Set your Database Connections (username/password in `services/mysql` and `core/sqlboiler.toml` )
+3. Run the project
     
 See [Quick Start](#quick-start) for example implementations.
 
