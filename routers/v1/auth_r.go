@@ -47,9 +47,6 @@ func SetAuthRoutes(router *gin.RouterGroup) {
  */
 
 	router.POST("/auth/login" , auth.Login)
-	// router.POST("/auth/register" , auth.Login)
-	// router.POST("/auth/logout" , auth.Login)
-	// router.POST("/refreshtoken" , auth.Login)
 	
 
 	
